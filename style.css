@@ -14,19 +14,20 @@ body{
     min-height: 100vh;    
 }
 .container
-{
+{    
     position: relative;
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
     margin: 25px;
-    background: #fff;
+    background: transparent;
     display: grid;
     grid-template-columns: 2fr 6fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 .container .left_Side
 {
+    border-radius: 10px;
     position: relative;
     background: #003147;
     padding: 40px;
@@ -143,6 +144,7 @@ body{
 
 .container .right_Side
 {
+    border-radius: 10px;
     position: relative;
     background: #fff;
     padding: 40px;
